@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".WarningActivity">
+
+    <ImageView
+        android:id="@+id/image_warning"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/text_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_warning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="경고: 옷이 아닙니다. 수거해주십시오"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main" />
+
+    <ImageButton
+        android:id="@+id/addClothesButton"
+        android:layout_width="520dp"
+        android:layout_height="520dp"
+        android:src="@drawable/input"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/capacityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addClothesButton"
+        android:text="현재 적재량: 0"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/setting"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>

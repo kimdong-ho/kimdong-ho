@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CheckActivity">
+
+    <ImageView
+        android:id="@+id/image_check"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/check" />
+
+    <TextView
+        android:id="@+id/text_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="확인: 옷이 맞습니다. 수거함이 작동됩니다."
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+</RelativeLayout>
